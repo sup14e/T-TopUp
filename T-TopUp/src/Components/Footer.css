@@ -1,0 +1,35 @@
+.footerbar{
+    margin-bottom: 0px;
+    height: 145px;
+    background-color: #456789;
+    padding: 0px;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+}
+      
+.circle {
+    padding: auto;
+    width: 43.107px;
+    height: 43.107px;
+    border-radius: 50%; 
+    background-color: #ffffff;
+    margin: 15px;
+}
+
+.circle img {
+    height: 100%;
+    object-fit: fill;
+    border-radius: 50%;
+  }
+  
+.footer-text {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight:500;
+    padding: 2px;
+}
+    

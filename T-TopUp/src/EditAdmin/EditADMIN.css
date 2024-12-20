@@ -1,0 +1,91 @@
+.Body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.UserManageFrame{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    Width: 1280px;
+    height: 640px;
+    Top: 170px;
+    Left:99px;
+    border-radius:45px;
+    background-color: #D9D9D9;
+    box-shadow: 0px 5px 10px #454545;
+}
+
+.UserPicAdj {
+    display: flex;
+    justify-content: center;
+}
+      
+.UserPic {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: #000000;
+    margin-top: -56px;
+}
+
+.inputsRow {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.inputsRow label {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.inputGroup {
+    display: flex;
+    margin-left: 65px;
+    flex-direction: column;
+}
+
+.inputGroup input {
+    width: 350px;
+    margin-top: 5px;
+    margin-right: 65px;
+    justify-items: center;
+    border: 2.5px solid #000000;
+}
+
+.inputGroup input[type=text]{
+    padding: 15px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.UserManageFrame button[type=submit]{
+    margin: 45px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    background-color: #456789;
+}
+
+.UserManageFrame button[type=reset]{
+    margin: 45px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    background-color: #B34545;
+}
